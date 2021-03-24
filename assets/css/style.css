@@ -88,7 +88,7 @@ header{
 }
 
 .logo{
-    background: url(/assets/images/ME.jpg);
+    background: url(../images/ME.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
