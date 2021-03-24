@@ -321,3 +321,29 @@ footer{
     margin-top: 25px;
     margin-bottom: 20px;
 }
+
+.center-form{
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #e84610;
+    border-color: #e84610 
+}
+
+/*------------------------------------------- Media Queries */
+
+
+@media(min-width: 992px){
+    .center-form{
+         margin-top: 30px;
+         margin: 0 auto;
+         min-height: 250px;
+         width: 50%;
+    }   
+}
