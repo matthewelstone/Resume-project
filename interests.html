@@ -52,50 +52,17 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column">
+            <div class="col-md-4 bg-color-conferences section-column">
                 <div class="row">
                     <div class="col-12">
                         <h3 class="section-heading uppercase">
-                            Personal info
+                            Conferences and Meetups Attended
                         </h3>
                     </div>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Name:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Matthew Elstone
-                        </p>
-                    </div>
-                </div>
-                 <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Phone:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            555 572 356 23
-                        </p>
-                    </div>
-                </div>
-                 <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Email:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Matthew_elstone@hotmail.com
-                        </p>
-                    </div>
-                </div>
+              <div id="map"> </div>  
+                 
+               
             </div>
             <div class="col-md-8 bg-color-three-reasons section-column">
                 <div class="row">   
@@ -210,5 +177,22 @@
         </div>
 
     </footer>
+    <script>
+      function initMap(){
+        var map = new google.maps.map(document.getElementById("map"),{
+          zoom:3,
+          center:{
+            lat: 46.619261,
+            lng: -33.134766
+          }
+        });
+      }
+    </script>
+    <script>
+      var APIKey = "AIzaSyA61z5LfHgRzI9nKleMZ1r4aYvIDy7u7Hc";
+    </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA61z5LfHgRzI9nKleMZ1r4aYvIDy7u7Hc&callback=initMap"></script>
+
 </body>
 </html>
