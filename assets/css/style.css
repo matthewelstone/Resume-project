@@ -29,9 +29,14 @@
 .ui-menu-color-resume {
     background-color: #b156d4;
 }
-
 .ui-menu-color-contact{
     background-color: #3498db;
+}
+.ui-menu-color-interests{
+    background-color: #e74c3c;
+}
+.ui-menu-color-github{
+    background-color: #1c4a6c;
 }
 
 .ui-menu-color-download{
